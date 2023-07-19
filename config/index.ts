@@ -1,6 +1,6 @@
 import type { AppInfo } from '@/types/app'
 export const APP_ID = '6747909a-5bbb-4c42-8e8c-e333307795db'
-export const API_KEY = process.env.DIFY_API_KEY
+export const API_KEY = process.env.DIFY_API_KEY;
 export const API_URL = ''
 export const APP_INFO: AppInfo = {
   title: 'Text Generator APP',
